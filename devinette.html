@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Deviner le nombre</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='devinette.css'>
+    
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    
+</head>
+<body>
+    <main>
+        <h1>Trouve le nombre !</h1>
+        <p>Le nombre est compris entre 0 et 100. Tu as 10 essais!!</p>
+        <div class="vies" id="vies">        
+            
+        </div>
+        <form action="" class="formulaire" id="jeu">
+            <label for="num">Donner un nombre:</label>
+            <input type="number" id="num" min="0" max="100" required>
+            <button type="submit" id="jouer">Jouer</button>
+            <p id="message"></p>
+            <button id="rejouer">Rejouer</button>
+        </form>
+    </main>
+    
+</body>
+<script src='dev.js'></script>
+</html>

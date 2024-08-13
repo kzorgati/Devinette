@@ -1,0 +1,81 @@
+/*
+Arrière plan dégradé : https://webgradients.com/
+Icones a inseré dans html: https://ionic.io/ionicons
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size:20px;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to top, #fddb92 0%, #d1fdff 100%);
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 900px;
+    padding: 30px;
+    border-radius: 10px;
+    background-color:rgba(240, 248, 255, 0.511);
+    box-shadow: 2px 2px 30px 4px  rgba(197, 47, 47, 0.211);
+    
+}
+h1{
+    font-family: 'Luckiest Guy', cursive;
+    color: rgb(167, 103, 25);
+    margin-bottom: 25px;  
+}
+.vies{
+    margin: 10px;
+}
+ion-icon{
+    font-size: 30px;
+    fill: red;
+}
+.formulaire{
+    width: 600px;
+    height: 200px;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: rgb(217, 84, 235);
+}
+.formulaire label{
+    display: block;
+    margin-bottom: 8px;
+}
+input,button{
+    outline: none;
+    border: none;
+    padding: 5px 20px;
+    margin: 10px;
+    border-radius: 8px;
+}
+button{
+    background-color: teal;
+    color:white;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+button:hover{
+    background-color: rgb(8, 197, 197);
+}
+#message{
+    text-align: center;
+}
+
+#rejouer{
+    display: none;
+}
